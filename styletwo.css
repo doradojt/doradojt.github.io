@@ -1,0 +1,18 @@
+<style>
+    
+    #blueheader {
+        font-size:40px;
+        font-weight: bold;
+        background-color: black;
+        color: blue;
+        }
+    #purpleheader {
+        font-weight: bold;
+        color: yellow;
+        }
+    #redheader {
+        font-size:50px;
+        background-color: black;
+        color: red;
+        }
+</style>
