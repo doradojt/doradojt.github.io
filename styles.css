@@ -7,6 +7,11 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+
+
+}
+
 h3 {
   font-size: 15px;
 }
@@ -52,8 +57,8 @@ h3 {
 /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
 .header h1 {
   padding: 60px;
-  margin: 0;
-  color: #000;
+  margin: 40;
+  color:  rgb(9, 201, 175);
   text-align: center;
 }
 
