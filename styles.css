@@ -17,10 +17,14 @@ h3 {
   font-size: 40px;
   font-weight: bold;
   background: whitesmoke;
+  display: inline-block;
+  margin-left: 40px;
+  background: seagreen;
+  cursor: pointerl
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-.navbar li {
+/*.navbar li {
   display: inline-block;
   padding: 10px;
   margin-right: 10px;
@@ -29,6 +33,8 @@ h3 {
   background:seagreen;
   border-radius: 3px;
 }
+*/  
+
 
 /* Getting rid of the default link styles here */
 .navbar li a {
