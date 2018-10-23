@@ -15,11 +15,13 @@ h3 {
 .navbar-header {
   padding: 1px;
   font-size: 40px;
+  margin-left:40px;
   font-weight: bold;
-  color: whitesmoke;
+  color: white;
   display: inline-block;
+  padding: 10px;
   margin-left: 60px;
-  background: rgb(13, 172, 150);
+  background: rgb(9, 201, 175);
   cursor: pointer;
 }
 
@@ -27,7 +29,7 @@ h3 {
 .navbar li {
   padding: 10px;
   margin-right: 10px;
-  margin-left: 40px;
+  margin-left: 10px;
   cursor: pointer;
   
 }
