@@ -14,6 +14,8 @@ h3 {
 /* Giving our navbar some padding and a background color */
 .navbar-header {
   padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
   background: whitesmoke;
 }
 
@@ -24,7 +26,7 @@ h3 {
   margin-right: 10px;
   margin-left: 40px;
   cursor: pointer;
-  background:cyan;
+  background:seagreen;
   border-radius: 3px;
 }
 
