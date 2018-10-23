@@ -3,19 +3,6 @@ body {
   background: gray;
 }
 
-h1 {
-  font-size: 50px;
-}
-
-h2 {
-
-
-}
-
-h3 {
-  font-size: 15px;
-}
-
 /* Giving our navbar some padding and a background color */
 .navbar-header {
   font-size: 40px;
@@ -37,15 +24,16 @@ h3 {
   cursor: pointer;
   
 }
-.navbar-brand {
+.navbar-header a {
   color: white;
   font-weight: bold;
   font-size: 25px,
 }
 
-color: white;
+.main {
+  color: white;
   display: inline-block;
-
+}
 
 /* Getting rid of the default link styles here */
 .navbar li a {
@@ -65,6 +53,7 @@ color: white;
   padding: 20px;
   margin: 10px;
   color:  rgb(9, 201, 175);
+  background: white;
   font-size: 40px;
   font-weight: bold;
   text-align: left;
@@ -76,4 +65,6 @@ color: white;
   margin-top: 50px;
   margin-right: 300px;
   margin-left: 100px;
+  background: white;
+  display: inline-block;
 }
