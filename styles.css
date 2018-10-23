@@ -12,7 +12,7 @@ h3 {
 }
 
 /* Giving our navbar some padding and a background color */
-.navbar {
+.navbar-header {
   padding: 10px;
   background: whitesmoke;
 }
