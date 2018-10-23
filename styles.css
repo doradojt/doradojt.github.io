@@ -22,7 +22,7 @@ body {
   cursor: pointer;
   
 }
-.navbar-header a {
+.navbar-brand a {
   color: white;
   font-weight: bold;
   font-size: 25px,
