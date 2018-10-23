@@ -18,7 +18,6 @@ h3 {
 
 /* Giving our navbar some padding and a background color */
 .navbar-header {
-  padding: 1px;
   font-size: 40px;
   margin-left:40px;
   font-weight: bold;
@@ -38,8 +37,14 @@ h3 {
   cursor: pointer;
   
 }
-*/  
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 25px,
+}
 
+color: white;
+  display: inline-block;
 
 
 /* Getting rid of the default link styles here */
