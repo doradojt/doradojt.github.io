@@ -51,8 +51,7 @@ h1 {
   padding: 20px;
   margin-top:50px;
   color:  rgb(9, 201, 175);
-  background: white;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: bold;
   text-align: left;
 }
@@ -60,9 +59,8 @@ h1 {
 /* Giving the .post element margin on 3 sides */
 .posts {
   font-size: 15px;
-  margin-top: 50px;
-  margin-right: 300px;
-  margin-left: 100px;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 20px;
   background: white;
-  display: inline-block;
 }
