@@ -55,6 +55,9 @@ body {
   clear: both;
 }
 
+.jumbotron{
+  background-color:white,
+}
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
   height: 200px;
