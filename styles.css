@@ -61,6 +61,11 @@ body {
 
 .col-md-4 {
   padding-top:20px;
+  padding-left:10px;
+}
+
+.col-md-8{
+  padding-right:10px;
 }
 /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
 #h1 {
