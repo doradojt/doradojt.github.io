@@ -8,7 +8,7 @@ body {
   display: inline-block;
   font-weight: bold;
   text-align: center;
-  padding-left:25px;
+  padding-left:15px;
   background: rgb(9, 201, 175);
   cursor: pointer;
 }
@@ -17,7 +17,7 @@ body {
   color: white;
 }
 
-.navbar-header {
+.navbar-header a {
   color: white;
   margin-left:15px;
   padding-left:25px;
