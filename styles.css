@@ -59,9 +59,9 @@ body {
 
 /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
 #h1 {
-  padding: 20px;
+  padding-top: 20px;
   color:  rgb(9, 201, 175);
-  font-size: 18px;
+  font-size: 28px;
   font-weight: bold;
   text-align: left;
 }
