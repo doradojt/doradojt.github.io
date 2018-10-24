@@ -11,7 +11,7 @@ body {
   cursor: pointer;
 }
 
-.navbar-brand a {
+.navbar-header a {
   color: white;
   margin-left:15px;
   font-weight: bold;
