@@ -24,7 +24,8 @@ body {
 }
 
 .row {
-  padding-top: 40px;
+  padding-top: 100px;
+  background: white;
 }
 
 .navbar li {
