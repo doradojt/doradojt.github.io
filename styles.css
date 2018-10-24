@@ -5,7 +5,8 @@ body {
 
 .navbar-header {
   display: inline-block;
-  padding: 10px;
+  font-weight: bold;
+  text-align: center;
   background: rgb(9, 201, 175);
   cursor: pointer;
 }
