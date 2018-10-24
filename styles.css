@@ -67,7 +67,7 @@ body {
 }
 
 /* Giving the .post element margin on 3 sides */
-.posts {
+.post {
   font-size: 10px;
   margin-top: 5px;
   margin-right: 50px;
