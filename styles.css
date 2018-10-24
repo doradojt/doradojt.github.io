@@ -3,6 +3,9 @@ body {
   background: rgb(126, 123, 123);
 }
 
+.navbar {
+  background: white;
+}
 
 .navbar-header {
   display: inline-block;
