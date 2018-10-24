@@ -50,14 +50,14 @@ body {
 h1 {
   padding: 20px;
   color:  rgb(9, 201, 175);
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   text-align: left;
 }
 
 /* Giving the .post element margin on 3 sides */
 .posts {
-  font-size: 12px;
+  font-size: 10px;
   margin-top: 5px;
   margin-right: 50px;
   margin-left: 5px;
