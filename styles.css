@@ -12,7 +12,7 @@ body {
   cursor: pointer;
 }
 
-. navbar-brand a{
+.navbar-brand a{
   color: white;
 }
 
@@ -23,6 +23,9 @@ body {
   font-size: 25px,
 }
 
+.jumbotron jumbotron-fluid {
+  padding-top:40px;
+}
 .navbar li {
   padding: 10px;
   cursor: pointer;
