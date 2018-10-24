@@ -3,12 +3,17 @@ body {
   background: gray;
 }
 
+
 .navbar-header {
   display: inline-block;
   font-weight: bold;
   text-align: center;
   background: rgb(9, 201, 175);
   cursor: pointer;
+}
+
+. navbar-brand a{
+  color: white;
 }
 
 .navbar-header a {
