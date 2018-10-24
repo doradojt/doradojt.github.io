@@ -4,17 +4,15 @@ body {
 }
 
 .navbar-header {
-  font-size: 40px;
-  font-weight: bold;
-  color: white;
   display: inline-block;
-  padding: 0px;
+  padding: 10px;
   background: rgb(9, 201, 175);
   cursor: pointer;
 }
 
 .navbar-brand a {
   color: white;
+  margin-left:15px;
   font-weight: bold;
   font-size: 25px,
 }
