@@ -97,3 +97,9 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: bold;
 }
+
+.column{
+  float:left;
+  width:50%;
+  padding:5px;
+}
