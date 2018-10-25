@@ -25,13 +25,10 @@ body {
   margin-left:15px;
   padding-left:25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: bold;
+  font-weight: bold;
   font-size: 25px,
 }
 
-.row {
-  background: white;
-}
 
 .navbar li {
   padding: 10px;
@@ -73,7 +70,7 @@ body {
   color:  rgb(9, 201, 175);
   font-size: 36px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: bold;
+  font-weight: bold;
   text-align: left;
 }
 
@@ -83,7 +80,7 @@ body {
   color:  rgb(9, 201, 175);
   font-size: 28px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: bold;
+  font-weight: bold;
   text-align: left;
 }
 
@@ -95,7 +92,7 @@ body {
   margin-left: 5px;
   background: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .column{
