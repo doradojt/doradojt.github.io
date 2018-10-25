@@ -11,22 +11,16 @@ body {
   display: inline-block;
   font-weight: bold;
   text-align: center;
-  padding-left:15px;
+  padding-left:45px;
   background: rgb(9, 201, 175);
   cursor: pointer;
 }
 
-.navbar-brand a{
-  color: white;
-}
-
 .navbar-header a {
   color: white;
-  margin-left:15px;
-  padding-left:25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
-  font-size: 25px,
+  font-size: 35px,
 }
 
 
