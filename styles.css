@@ -54,6 +54,15 @@ body {
   clear: both;
 }
 
+.hr2 {
+  height:0;
+  max-height:0;
+  font-size:4px;
+  color: rgb(9, 201, 175);
+  line-height:0;
+  clear: both;
+}
+
 .jumbotron{
   background-color:white,
 }
