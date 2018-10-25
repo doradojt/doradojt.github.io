@@ -24,7 +24,8 @@ body {
   color: white;
   margin-left:15px;
   padding-left:25px;
-  font-weight: bold;
+  font-family: Georgia;
+  font-style: bold;
   font-size: 25px,
 }
 
@@ -71,7 +72,8 @@ body {
   padding-top: 20px;
   color:  rgb(9, 201, 175);
   font-size: 36px;
-  font-weight: bold;
+  font-family: Georgia;
+  font-style: bold;
   text-align: left;
 }
 
@@ -80,7 +82,8 @@ body {
   padding-left:20px;
   color:  rgb(9, 201, 175);
   font-size: 28px;
-  font-weight: bold;
+  font-family: Georgia;
+  font-style: bold;
   text-align: left;
 }
 
@@ -91,4 +94,6 @@ body {
   margin-right: 50px;
   margin-left: 5px;
   background: white;
+  font-family: Georgia;
+  font-style: bold;
 }
