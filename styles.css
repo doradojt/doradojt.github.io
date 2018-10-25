@@ -55,9 +55,9 @@ body {
 }
 
 .hr2 {
-  height:0;
-  max-height:0;
-  font-size:4px;
+  height:4;
+  max-height:4;
+  font-size:40px;
   color: rgb(9, 201, 175);
   line-height:0;
   clear: both;
