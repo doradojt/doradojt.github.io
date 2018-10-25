@@ -9,6 +9,9 @@ body {
 
 .navbar-header {
   display: inline-block;
+  padding: 20px;
+  margin-right:10px;
+  margin-left:10px;
   font-weight: bold;
   text-align: center;
   background: rgb(9, 201, 175);
