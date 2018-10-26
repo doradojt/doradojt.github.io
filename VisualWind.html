@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Michals Vis Page</title>
+<link rel="stylesheet" href="styles.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</head>
+<body class="body" id="bodycolor">
+    <div class ="container-fluid">
+            <div class ="row">
+                <div class ="col-md-12">
+                    <nav class="navbar navbar-default" id="one">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" id=logo href="#">Latitude</a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" href="#" id="navbarDropDownMenuLink" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots 
+                                        <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Max Temperature</a></li>
+                                            <li><a href="#">Humidity</a></li>
+                                            <li><a href="#">Cloudiness</a></li>
+                                            <li><a href="#">Wind Speed</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Comparison</a></li>
+                                    <li><a href="#">Data</a></li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                    </nav>
+                </div>
+            </div>
+   </div>  
+        <main>
+            <div class = "container-fluid">
+                <div class = "row">
+                    <div class ="col-md-8 col-sm-8" id="boxwhite">
+                        <h1 id="h1">Wind Speed</h1>
+                        <hr class="hr">
+                        <div class="col-md-12 col-sm-6 col-xs-6">
+                        <img src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeWind.png" alt="Latitude vs Wind" class="img-fluid" id="center">
+                            <div class="post">
+                                <p>
+                                <br/>           
+                                <br/>
+                                <br/>
+                                Winds are created from differences in atmospheric pressures.  After winds are started, a combination of three forces 
+                                are responsible for controlling its movement--the pressure gradient force, the Coriolis force, and friction. 
+                                It's a general rule of meteorology that air flows from areas of higher pressure to areas of lower pressure. 
+                                As this happens, air molecules at the place of higher pressure build up as they get ready to push toward the lower 
+                                pressure. This force that pushes air from one location to another is known as the pressure gradient force. 
+                                It is the force that accelerates air parcels and thus, starts the wind blowing.
+                                <br/>
+                                <br/>     
+                                The strength of the "pushing" force, or pressure gradient force, depends on (1) how much of a difference 
+                                there is in air pressures and (2) the amount of distance between the pressure areas. The force will be stronger 
+                                if the difference in pressure is larger or the distance between them is shorter, and vice versa.
+                                <br/>
+                                <br/>        
+                                If Earth didn't rotate, air would flow straight, in a direct path from high to low pressure. But because Earth 
+                                rotates towards the east, air (and all other free-moving objects) are deflected to the right of their path of
+                                motion in the Northern Hemisphere.  (They're deflected to the left in the Southern Hemisphere). This deviation 
+                                is known as the Coriolis force.  The Coriolis force is directly proportional to wind speed. This means that the stronger 
+                                the wind blows, the stronger the Coriolis will deflect it rightward. Coriolis is also dependent on latitude.  It's strongest at 
+                                the poles and weakens the closer one travels toward 0° latitude (the equator). Once the equator is reached, the Coriolis 
+                                force is nonexistent.
+                                <br/>
+                                <br/>              
+                                The last driver of wind movement is friction.  Friction occurs as wind passes over terrain--trees, mountains, and even soil--interrupts 
+                                the air's movement and acts to slow it down. Because friction reduces wind, it can be thought of as the force that 
+                                opposes the pressure gradient force.  It's important to note that friction is only present within a few kilometers 
+                                of Earth's surface. Above this height, its effects are too small to take into account.
+                                <br/>
+                                <br/>     
+                                Lastly, wind is a vector quantity. This means it has two components: speed and direction.  Wind speed is measured using an 
+                                anemometer and is given in miles per hour or knots. Its direction is determined from a weather vane or windsock and is 
+                                expressed in terms of the direction from which it blows. For example, if winds are blowing from the north to the south 
+                                they are said to be northerly, or from the north.
+                                <br/>
+                                <br/>     
+                                Our plot shows a fairly well dispursed clustering of city latitudes and wind speeds.  Interesting to point out, as we
+                                move away from the equator, regardless of the time of year, temperature differences in the air are present.  We would expect
+                                therefore, to see wind speeds increase at the latitudes further from the equator.  A parabolic shape if you will.  That is 
+                                what we observe here.
+                                <br/>           
+                                <br/>
+                                <br/>
+                                </p>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-md-4 col-sm-4" id="boxwhitetwo">
+                        <h2 id="h2">Visualizations</h2>
+                        <hr class="hr">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="img-thumbnail">
+                                        <img src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeTemp.png" alt="Latitude vs. Temperature" style="width:100%">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="img-thumbnail">
+                                        <img src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeWind.png" alt="Latitude vs. Wind" id="highlightedimage" style="width:100%">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class = "row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="img-thumbnail">
+                                    <img src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeClouds.png" alt="Latitude vs Cloudiness"  style="width:100%">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="img-thumbnail">
+                                    <img src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeHumidity.png" alt="Latitude vs Humidity" style="width:100%">
+                                    </div>
+                                </div>
+                            </div>
+                    <br/>           
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <hr id="hr2">
+</body>
+</head>
+</html> 
+

@@ -39,19 +39,33 @@
   margin-top:15px;
   margin-right: 5px;
   margin-left: 5px;
-  padding-left: 100px;
-  padding-right: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
   background: white;
   border:1px;
   width:600px;
   cursor: pointer;
 }
+#boxwhitecomparison {
+  display: inline-block;
+  margin-top:15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: white;
+  border:1px;
+  width:1000px;
+  cursor: pointer;
 
-.center {
+}
+
+
+#center {
   display: block;
   margin-left: 10px;
   margin-right: 10px;
-  width:50%
+  width:90%
 }
 
 #logo {
@@ -127,6 +141,16 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   text-align: left;
+}
+
+#h3 {
+  padding-top: 20px;
+  padding-left:20px;
+  color:  rgb(9, 201, 175);
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* Giving the .post element margin on 3 sides */
