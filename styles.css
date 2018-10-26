@@ -55,11 +55,11 @@ body {
 }
 
 .hr2 {
-  height:4;
-  max-height:4;
+  height:4px;
+  max-height:4px;
   font-size:40px;
   color: rgb(9, 201, 175);
-  line-height:0;
+  line-height:8px;
   clear: both;
 }
 
