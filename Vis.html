@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 <meta charset="UTF-8">
-<title>Michals Weather Visualization Page</title>
+<title>Michals Vis Page</title>
 <link rel="stylesheet" href="styles.css"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -43,49 +43,58 @@
             <div class = "container-fluid">
                 <div class = "row">
                     <div class ="col-md-8" id="boxwhite">
-                        <h1 id="h1">Summary: Latitude vs. X</h1>
+                        <h1 id="h1">Max Temperature</h1>
                         <hr class="hr">
                         <div class="post">
-                            <p><img class="img-responsive" src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeTemp.png" alt="Latitude vs. Temperature" style= "float:left">
-                            The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we 
-                            first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                            <p><img class="responsive" src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeTemp.png" alt="Max. Latitude vs. Temperature" class="center">
+                            <br/>           
                             <br/>
                             <br/>
-                            <br/>
-                            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included:
-                            temperature, cloudiness, wind speed and humidity.  This site provides the source data and visualizations created as part of the analysis,
-                            as well as explanations and descriptions of any trends and correlations witnessed.
-                            <br/>
+                            As expected, the weather becomes significantly warmer as one approaches the equator(0 Deg. Latitude).
+                            More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of
+                            year than the northern hemisphere.  This may be due to the tilt of the earth at the time of year this 
+                            data was gathered.
+                            <br/>           
                             <br/>
                             <br/>
                             <br/>           
                             <br/>
                             <br/>
+                            <br/>           
+                            <br/>
+                            <br/>
+                            <br/>
                             </p>
                         </div>  
                     </div>
-                    <div class="col-md-4" id="boxwhite">
+                    <div class="col-md-4" id="boxwhitetwo">
                         <h2 id="h2">Visualizations</h2>
                         <hr class="hr">
                             <div class="row">
-                                <div class="column">
-                                    <img src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeTemp.png" alt="Latitude vs. Temperature" style="width:100%">
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="thumbnail">
+                                        <img src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeTemp.png" alt="Latitude vs. Temperature" id="highlightedimage" style="width:100%">
+                                    </div>
                                 </div>
-                                <div class="column">
-                                    <img src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeWind.png" alt="Latitude vs. Wind" style="width:100%">
-                                </div>  
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="thumbnail">
+                                        <img src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeWind.png" alt="Latitude vs. Wind" style="width:100%">
+                                    </div>  
+                                </div>
                             </div>
                             <div class = "row">
-                                <div class="column">
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="thumbnail">
                                     <img src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeClouds.png" alt="Latitude vs Cloudiness" style="width:100%">
+                                    </div>
                                 </div>
-                                <div class="column">
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="thumbnail">
                                     <img src="https://raw.githubusercontent.com/doradojt/doradojt.github.io/master/LatitudeHumidity.png" alt="Latitude vs Humidity" style="width:100%">
+                                    </div>
                                 </div>
                             </div>
                     <br/>           
-                    <br/>
-                    <br/>
                     </div>
                 </div>
             </div>

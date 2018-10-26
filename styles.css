@@ -13,6 +13,7 @@
 
 .navbar-header {
   display: inline-block;
+  text-align: center;
   padding: 10px;
   margin-right:10px;
   margin-left:40px;
@@ -33,6 +34,26 @@
   cursor: pointer;
 }
 
+#boxwhitetwo {
+  display: inline-block;
+  margin-top:15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-left: 100px;
+  padding-right: 0px;
+  background: white;
+  border:1px;
+  width:600px;
+  cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width:50%
+}
+
 #logo {
   color: white;
   padding-left: 25px;
@@ -42,10 +63,10 @@
   font-size: 50px,
 }
 
-.wrapper{
-  column-count: 2;
-  column-gap: 50px;
-  padding: 50px;
+.responsive{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 .navbar li {
@@ -72,13 +93,14 @@
   clear: both;
 }
 
+#highlightedimage {
+  border: 5px solid rgb(9, 201, 175);
+}
+
 #hr2 {
   border-bottom: 5px solid rgb(9, 201, 175);
 }
 
-.jumbotron{
-  background-color:white,
-}
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
   height: 200px;
