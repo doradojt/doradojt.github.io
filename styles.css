@@ -26,9 +26,10 @@
   margin-top:15px;
   margin-right: 5px;
   margin-left: 5px;
-  padding: 10px;
+  padding: 5px;
   background: white;
   border:1px;
+  width:500px;
   cursor: pointer;
 }
 
