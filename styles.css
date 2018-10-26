@@ -13,11 +13,12 @@
 
 .navbar-header {
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
   margin-right:10px;
-  margin-left:10px;
+  margin-left:40px;
   background: rgb(9, 201, 175);
   cursor: pointer;
+  width: 200px;
   border-radius: 3px;
 }
 
