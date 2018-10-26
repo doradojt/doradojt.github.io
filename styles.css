@@ -15,16 +15,14 @@ body {
   display: inline-block;
   padding: 20px;
   margin-right:10px;
-  margin-left:1000px;
-  font-weight: bold;
-  text-align: center;
+  margin-left:10px;
   background: rgb(9, 201, 175);
   cursor: pointer;
 }
 
 #logo {
   color: white;
-  padding-left: 10px;
+  padding-left: 25px;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
