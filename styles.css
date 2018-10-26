@@ -23,11 +23,12 @@
 
 #boxwhite {
   display: inline-block;
-  padding:200px;
-  margin-right: 2px;
-  margin-left: 2px;
+  margin-top:15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 75px;
   background: white;
-  border-radius:1px;
+  border:1px;
   cursor: pointer;
 }
 
