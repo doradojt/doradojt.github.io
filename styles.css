@@ -1,6 +1,6 @@
 
 #bodycolor {
-  background: rgb(238, 234, 234);
+  background: rgb(228, 222, 222);
 }
 
 #navbarNavDropdown {
@@ -19,6 +19,16 @@
   background: rgb(9, 201, 175);
   cursor: pointer;
   border-radius: 3px;
+}
+
+#boxwhite {
+  display: inline-block;
+  padding:20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background: yellow;
+  border-radius:3px;
+  cursor: pointer;
 }
 
 #logo {
