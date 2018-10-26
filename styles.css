@@ -3,7 +3,7 @@ body {
   background: rgb(126, 123, 123);
 }
 
-.navbar navbar-default {
+#navbarNavDropdown {
   background: white;
 }
 
