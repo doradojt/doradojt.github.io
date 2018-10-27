@@ -60,7 +60,6 @@
 
 }
 
-
 #center {
   display: block;
   margin-left: 10px;
@@ -168,4 +167,16 @@
   float:left;
   width:50%;
   padding:5px;
+}
+
+.footer {
+  position: fixed;
+  margin-left: 0px;
+  margin-right: 0px;
+  height:40px;
+  width: 100%;
+  padding:5px;
+  background-color: gray;
+  color: white;
+  text-align:center;
 }
